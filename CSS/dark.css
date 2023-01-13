@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../Images/image.png);
+}
+
+.section-1 {
+  background-image: url(../Images/паппп.png);
+}
+
+.bottom-1 {
+  padding: 35px 0;
+  background-color: #ededed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.people-text {
+  color: black;
+}
+
+.button_dark_or_sun_mode {
+  background-color: black;
+  width: 80px;
+  height: 34px;
+  margin-right: 40px;
+  border-radius: 20px;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.block_switch {
+  position: absolute;
+  background-color: white;
+  top: 4px;
+  left: 4px;
+  width: 28px;
+  height: 27px;
+  border-radius: 20px;
+  z-index: -1;
+  transition: 300ms;
+}
+
+.left {
+  left: 6px;
+}
+
+.right {
+  left: 48px;
+}
+
+.color_mode {
+  background-color: rgb(35, 33, 33);
+}
+
+p {
+  color: black;
+}
+
+.time-item {
+  background-color: #ededed;
+}
+
+.left-item::after {
+  content: "";
+  width: 40px;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  right: -65px;
+  z-index: -1;
+}
+
+.right-item::after {
+  content: "";
+  width: 40px;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  right: -65px;
+  z-index: -1;
+}
+
+.drag-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 300ms;
+  cursor: move;
+  border-color: black;
+}
+
+.got-money,
+.start-info {
+  color: black;
+}
+
+h2,
+h3 {
+  color: #000;
+}
+
+.filter {
+  filter: invert(100%);
+}
+
+.footer-form input {
+  width: 100%;
+  padding: 11px 30px;
+  background-color: #00000025;
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.bio-btn {
+  color: black;
+  border-color: black;
+}
+
+.display-none-burger {
+  background-color: #7b7b7b;
+}
+
+.burger span,
+.burger span:before,
+.burger span:after {
+  background-color: #80002b;
+}
+
+.menu {
+  background: #ededed;
+}
+
+.linkk {
+  color: #000;
+}
+
+/* Body scroll change */
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  background-color: #f9f9fd;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: linear-gradient(180deg, #df5950 11.19%, #451046 93.72%);
+}

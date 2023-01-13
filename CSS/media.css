@@ -1,0 +1,387 @@
+@media (max-width: 1466px) {
+  .center-container {
+    justify-content: start;
+    padding-left: 40px;
+  }
+
+  .center-1 {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .header-links {
+    display: none;
+  }
+  header {
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .display-none-burger {
+    display: block;
+  }
+  .range-1 {
+    width: 100%;
+  }
+  .money-people {
+    width: 600px;
+  }
+  .about {
+    width: fit-content;
+  }
+  .about-content {
+    margin-top: 40px;
+    max-width: 536px;
+    margin-bottom: 200px;
+  }
+  .fast-start {
+    display: flex;
+    justify-content: center;
+  }
+  .start-logo,
+  .start-info {
+    margin-left: 40px;
+  }
+  .percent-wrapper {
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 254px);
+    color: white;
+    margin-top: 80px;
+    overflow: hidden;
+  }
+  .about {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+  }
+  .prof-wrapper {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 316px);
+    gap: 24px;
+    margin: 0 auto;
+  }
+
+  .drag-wrapper {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(4, 230px);
+    grid-auto-rows: 101px;
+    margin: 40px auto;
+  }
+  .drag-item img {
+    width: 120px;
+  }
+}
+
+@media (max-width: 1210px) {
+  .money-people {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .percent-wrapper {
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 194px);
+    color: white;
+    margin-top: 80px;
+    overflow: hidden;
+  }
+  .center-container {
+    justify-content: start;
+    padding-left: 0px;
+  }
+  .percent-info {
+    font-weight: 400;
+    font-size: 10px;
+    opacity: 0.5;
+    line-height: 160%;
+    max-width: 306px;
+    margin-top: 35px;
+  }
+  .prof-wrapper {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 216px);
+    gap: 50px;
+    margin: 0 auto;
+  }
+  .prof-item p {
+    font-size: 13px;
+  }
+  .people {
+    display: none;
+  }
+  .main-text,
+  .main-text-two {
+    text-align: center;
+    font-size: 55px;
+  }
+  .time-wrapper {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .bottom-container {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+  }
+  .money-people {
+    width: 600px;
+  }
+  .teacher-wrapper {
+    display: none;
+  }
+  .mySwiper {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+  }
+  footer {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .center-1 {
+    min-width: 280px;
+    width: fit-content;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 920px) {
+  .drag-wrapper {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(4, 180px);
+    grid-auto-rows: 81px;
+    margin: 40px auto;
+  }
+  .drag-item img {
+    width: 90px;
+  }
+  .start-logo h2,
+  .program-top h2,
+  .footer-title,
+  .get-prof h2 {
+    font-weight: 700;
+    font-size: 35px;
+  }
+
+  .start-logo img,
+  .program-top img {
+    width: 100px;
+  }
+  header {
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 870px) {
+  .money-people {
+    width: 400px;
+  }
+}
+
+@media (max-width: 830px) {
+  .percent-wrapper {
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    color: white;
+    margin-top: 80px;
+    overflow: hidden;
+  }
+  .per-out {
+    height: 40px;
+  }
+}
+
+@media (max-width: 780px) {
+  .prof-wrapper {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 116px);
+    gap: 100px;
+    margin: 0 auto;
+  }
+  .prof-item p {
+    display: none;
+  }
+  .drag-wrapper {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2, 230px);
+    grid-auto-rows: 91px;
+    margin: 40px auto;
+  }
+  .drag-item img {
+    width: 120px;
+  }
+  .br-right-none {
+    border-right: none;
+  }
+  .br-right-flex {
+    border-bottom: 1px solid white;
+  }
+}
+
+@media (max-width: 660px) {
+  .bottom-container {
+    display: block;
+  }
+  .money-people {
+    margin-bottom: 20px;
+  }
+  .ok-none {
+    display: none;
+  }
+  .none-display {
+    display: block;
+    margin-top: 40px;
+  }
+  .percent-wrapper {
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(1, 250px);
+    color: white;
+    margin-top: 80px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-content h2 {
+    font-weight: 700;
+    font-size: 28px;
+  }
+  .about-content p {
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .aos-img {
+    width: 350px;
+    margin: 0 auto;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-false {
+    display: none;
+  }
+  .btn-true {
+    display: block;
+  }
+  .time {
+    font-size: 20px;
+  }
+  .time-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 90px);
+    grid-auto-rows: 95px;
+    gap: 10px;
+  }
+  .about-content {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .prof-wrapper {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(1, 116px);
+    gap: 100px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-form {
+    width: 300px;
+  }
+  .main-text,
+  .main-text-two {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 460px) {
+  .pr-item p {
+    max-width: 228px;
+    font-weight: 400;
+    font-size: 10px;
+  }
+  .drag-wrapper {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(1, 230px);
+    grid-auto-rows: 91px;
+    margin: 40px auto;
+  }
+  .br-right-flex,
+  .br-right {
+    border: none;
+  }
+  .drag-item {
+    border-bottom: 1px solid #fff;
+  }
+  .mySwiper {
+    width: 300px;
+  }
+  .start-logo h2,
+  .program-top h2,
+  .footer-title,
+  .get-prof h2 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .start-logo img,
+  .program-top img {
+    width: 50px;
+  }
+
+  .start-info {
+    font-size: 13px;
+  }
+
+  .time-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 90px);
+    grid-auto-rows: 95px;
+    gap: 10px;
+  }
+  .money {
+    height: fit-content;
+    width: 300px;
+  }
+  .money-people {
+    width: 300px;
+  }
+}
+
+@media (max-width: 355px) {
+  .aos-img {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .percent-wrapper {
+    width: fit-content;
+  }
+  .start-logo h2,
+  .program-top h2,
+  .footer-title,
+  .get-prof h2 {
+    font-weight: 700;
+    font-size: 15px;
+  }
+}
